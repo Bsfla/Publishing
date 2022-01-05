@@ -45,6 +45,7 @@ header ul li a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: 50px;
 }
 
 .content .textbox {
@@ -83,4 +84,26 @@ header ul li a {
 
 .content .imgbox img {
   max-width: 260px;
+}
+
+.thumb {
+  position: absolute;
+  display: flex;
+  list-style: none;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.thumb li {
+  display: inline-block;
+  margin-right: 40px;
+  cursor: pointer;
+}
+
+.thumb li:hover {
+  transform: translateY(-15px);
+}
+
+.thumb li img {
+  max-width: 40px;
 }
