@@ -98,6 +98,7 @@ header ul li a {
   display: inline-block;
   margin-right: 40px;
   cursor: pointer;
+  transition: 0.5s;
 }
 
 .thumb li:hover {
